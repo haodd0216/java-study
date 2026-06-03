@@ -2,27 +2,35 @@ topic: java
 created: 2026-06-02
 concepts:
   - path: "语言基础/开发环境与运行模型"
-    status: in_progress
-    last_practiced: null
-    last_session: 2026-06-02
-    practice_count: 0
-    confidence: 0.05
+    status: mastered
+    last_practiced: 2026-06-03
+    last_session: 2026-06-03
+    practice_count: 1
+    confidence: 0.80
   - path: "语言基础/基本语法与程序结构"
+    status: mastered
+    last_practiced: 2026-06-03
+    last_session: 2026-06-03
+    practice_count: 1
+    confidence: 0.85
+  - path: "语言基础/变量与数据类型"
+    status: mastered
+    last_practiced: 2026-06-03
+    last_session: 2026-06-03
+    practice_count: 1
+    confidence: 0.85
+  - path: "语言基础/运算符与表达式"
     status: in_progress
     last_practiced: null
-    last_session: 2026-06-02
+    last_session: 2026-06-03
     practice_count: 0
     confidence: 0.05
-  - path: "语言基础/变量与数据类型"
-    status: unexplored
+  - path: "语言基础/运算符与表达式/位运算"
+    status: in_progress
     last_practiced: null
+    last_session: 2026-06-03
     practice_count: 0
-    confidence: 0.0
-  - path: "语言基础/运算符与表达式"
-    status: unexplored
-    last_practiced: null
-    practice_count: 0
-    confidence: 0.0
+    confidence: 0.05
   - path: "语言基础/流程控制"
     status: unexplored
     last_practiced: null
