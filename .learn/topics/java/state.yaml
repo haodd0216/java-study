@@ -32,15 +32,17 @@ concepts:
     practice_count: 0
     confidence: 0.05
   - path: "语言基础/流程控制"
-    status: unexplored
-    last_practiced: null
-    practice_count: 0
-    confidence: 0.0
+    status: in_progress
+    last_practiced: 2026-06-12
+    last_session: 2026-06-12
+    practice_count: 1
+    confidence: 0.75
   - path: "语言基础/数组与字符串"
-    status: unexplored
-    last_practiced: null
-    practice_count: 0
-    confidence: 0.0
+    status: in_progress
+    last_practiced: 2026-06-17
+    last_session: 2026-06-17
+    practice_count: 1
+    confidence: 0.10
   - path: "面向对象编程/类与对象"
     status: unexplored
     last_practiced: null

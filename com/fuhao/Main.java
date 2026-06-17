@@ -13,5 +13,14 @@ public class Main {
         List<String> names = Arrays.asList("Alice", "Bob", "Charlie");
 
         names.forEach(System.out::println);
+
+        outer:
+        for(int i = 1; i <= 100; i++) {
+            if ((i % 7) == 0 && (i % 9) == 0) {
+                System.out.println(i);
+                break outer;
+            }
+            System.out.println(i);
+        }
     }
 }
