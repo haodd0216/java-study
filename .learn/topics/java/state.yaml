@@ -68,10 +68,11 @@ concepts:
     practice_count: 0
     confidence: 0.55
   - path: "面向对象编程/继承"
-    status: unexplored
+    status: in_progress
     last_practiced: null
+    last_session: 2026-06-18
     practice_count: 0
-    confidence: 0.0
+    confidence: 0.72
   - path: "面向对象编程/多态"
     status: unexplored
     last_practiced: null
