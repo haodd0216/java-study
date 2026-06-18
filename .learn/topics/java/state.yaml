@@ -41,18 +41,32 @@ concepts:
     status: in_progress
     last_practiced: 2026-06-17
     last_session: 2026-06-17
-    practice_count: 1
-    confidence: 0.10
+    practice_count: 2
+    confidence: 0.82
   - path: "面向对象编程/类与对象"
-    status: unexplored
+    status: in_progress
     last_practiced: null
+    last_session: 2026-06-18
     practice_count: 0
-    confidence: 0.0
+    confidence: 0.65
   - path: "面向对象编程/封装"
-    status: unexplored
+    status: mastered
+    last_practiced: 2026-06-18
+    last_session: 2026-06-18
+    practice_count: 3
+    confidence: 0.92
+  - path: "面向对象编程/封装/构造方法与封装的关系"
+    status: in_progress
     last_practiced: null
+    last_session: 2026-06-18
     practice_count: 0
-    confidence: 0.0
+    confidence: 0.75
+  - path: "面向对象编程/封装/getter-setter 的合理使用"
+    status: in_progress
+    last_practiced: null
+    last_session: 2026-06-18
+    practice_count: 0
+    confidence: 0.55
   - path: "面向对象编程/继承"
     status: unexplored
     last_practiced: null

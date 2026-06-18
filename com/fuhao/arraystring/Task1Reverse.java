@@ -12,8 +12,10 @@ public class Task1Reverse {
             if(i == (arr.length / 2)) {
                 break;
             }
-            arr[i] = arr[i] ^ arr[arr.length - (i + 1)];
+            int temp = arr[i];
+            arr[i] = arr[arr.length - i - 1];
+            arr[arr.length - i - 1] = temp;
         }
-        System.out.println(Arrays.toString(arr));
+        System.out.println("反转后: " + Arrays.toString(arr));
     }
 }
