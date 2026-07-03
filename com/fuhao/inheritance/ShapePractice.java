@@ -2,17 +2,41 @@ package com.fuhao.inheritance;
 
 public class ShapePractice {
     public static void main(String[] args) {
-        // 在这里创建 Circle 和 Rectangle 对象并测试
-        Circle circle = new Circle(3.2);
-        circle.describe();
+        // 1. 验证：不能 new 抽象类
+        // Shape s = new Shape("测试");  // 取消注释会编译报错
 
-        Rectangle rectangle = new Rectangle(4.5, 2);
-        rectangle.describe();
+        // 2. 正常创建对象
+        Circle circle = new Circle(3.0);
+        Rectangle rectangle = new Rectangle(4.0, 5.0);
+
+        // 3. Shape 引用 → 多态调用 area() 和 describe()
+        System.out.println("=== 用 Shape 引用 ===");
+        Shape s1 = circle;
+        Shape s2 = rectangle;
+        s1.describe();
+        s2.describe();
+
+        // 4. Drawable 引用 → 多态调用 draw()
+        System.out.println("\n=== 用 Drawable 引用 ===");
+        Drawable d1 = circle;
+        Drawable d2 = rectangle;
+        d1.draw();
+        d2.draw();
+
+        // 5. Scalable 引用 → 多态调用 scale()
+        System.out.println("\n=== 用 Scalable 引用 ===");
+        Scalable sc1 = circle;
+        Scalable sc2 = rectangle;
+        sc1.scale(2.0);
+        sc2.scale(0.5);
+        System.out.println("缩放后：");
+        s1.describe();  // 圆放大了2倍
+        s2.describe();  // 矩形缩小了一半
     }
 }
 
 // 父类：图形
-class Shape {
+abstract class Shape {
     // TODO: private 字段 name（图形名称）
     private final String name;
     public String category;
@@ -28,9 +52,7 @@ class Shape {
     }
 
     // TODO: 方法 area()，返回 double，父类默认返回 0
-    public double area() {
-        return 0;
-    }
+    public abstract double area();
 
     // TODO: 方法 describe()，打印：图形[name] 面积 = area()
     public void describe() {
@@ -39,7 +61,7 @@ class Shape {
 }
 
 // 子类：圆形
-class Circle extends Shape {
+class Circle extends Shape implements Drawable, Scalable {
     // TODO: private 字段 radius（半径）
     private double radius;
     public String category;
@@ -57,15 +79,29 @@ class Circle extends Shape {
         return this.radius;
     }
 
+    public void setCategory(String category) {
+        this.category = category;
+    }
+
     // TODO: 重写 area()，返回 Math.PI * radius * radius
     @Override
     public double area() {
         return Math.PI * Math.pow(this.radius, 2);
     }
+
+    @Override
+    public void draw() {
+        System.out.println("  ◯  (半径 = " + getRadius() + ")");
+    }
+
+    @Override
+    public void scale(double factor) {
+        this.radius *= factor;
+    }
 }
 
 // 子类：矩形
-class Rectangle extends Shape {
+class Rectangle extends Shape implements Drawable, Scalable {
     // TODO: private 字段 width、height
     private double width;
     private double height;
@@ -99,4 +135,23 @@ class Rectangle extends Shape {
         super.describe();
         System.out.println("宽=" + this.width + " " + "高=" + this.height);
     }
+
+    @Override
+    public void draw() {
+        System.out.println("绘制矩形，宽=" + this.getWidth() + "高=" + this.getHeight());
+    }
+
+    @Override
+    public void scale(double factor) {
+        this.width *= factor;
+        this.height *= factor;
+    }
+}
+
+interface Drawable {
+    void draw();
+}
+
+interface Scalable {
+    void scale(double factor);
 }

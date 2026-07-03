@@ -74,21 +74,35 @@ concepts:
     practice_count: 1
     confidence: 0.85
   - path: "面向对象编程/多态"
+    status: mastered
+    last_practiced: 2026-07-03
+    last_session: 2026-07-02
+    practice_count: 3
+    confidence: 0.92
+  - path: "面向对象编程/多态/向上转型与向下转型"
+    status: mastered
+    last_practiced: 2026-07-03
+    last_session: 2026-07-02
+    practice_count: 1
+    confidence: 0.90
+  - path: "面向对象编程/多态/instanceof与动态绑定"
+    status: mastered
+    last_practiced: 2026-07-03
+    last_session: 2026-07-02
+    practice_count: 1
+    confidence: 0.90
+  - path: "面向对象编程/抽象类与接口"
+    status: mastered
+    last_practiced: 2026-07-03
+    last_session: 2026-07-02
+    practice_count: 1
+    confidence: 0.88
+  - path: "面向对象编程/内部类与匿名类"
     status: in_progress
     last_practiced: null
-    last_session: 2026-07-02
+    last_session: 2026-07-03
     practice_count: 0
-    confidence: 0.55
-  - path: "面向对象编程/抽象类与接口"
-    status: unexplored
-    last_practiced: null
-    practice_count: 0
-    confidence: 0.0
-  - path: "面向对象编程/内部类与匿名类"
-    status: unexplored
-    last_practiced: null
-    practice_count: 0
-    confidence: 0.0
+    confidence: 0.30
   - path: "常用核心 API/Object、String 与包装类"
     status: unexplored
     last_practiced: null
