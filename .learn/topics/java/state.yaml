@@ -20,17 +20,17 @@ concepts:
     practice_count: 1
     confidence: 0.85
   - path: "语言基础/运算符与表达式"
-    status: in_progress
-    last_practiced: null
-    last_session: 2026-06-03
-    practice_count: 0
-    confidence: 0.05
+    status: mastered
+    last_practiced: 2026-07-14
+    last_session: 2026-07-14
+    practice_count: 1
+    confidence: 0.85
   - path: "语言基础/运算符与表达式/位运算"
-    status: in_progress
-    last_practiced: null
-    last_session: 2026-06-03
-    practice_count: 0
-    confidence: 0.05
+    status: mastered
+    last_practiced: 2026-07-14
+    last_session: 2026-07-14
+    practice_count: 1
+    confidence: 0.85
   - path: "语言基础/流程控制"
     status: in_progress
     last_practiced: 2026-06-12
@@ -44,11 +44,11 @@ concepts:
     practice_count: 2
     confidence: 0.82
   - path: "面向对象编程/类与对象"
-    status: in_progress
-    last_practiced: null
-    last_session: 2026-06-18
-    practice_count: 0
-    confidence: 0.65
+    status: mastered
+    last_practiced: 2026-07-14
+    last_session: 2026-07-14
+    practice_count: 1
+    confidence: 0.90
   - path: "面向对象编程/封装"
     status: mastered
     last_practiced: 2026-06-18
@@ -98,11 +98,11 @@ concepts:
     practice_count: 1
     confidence: 0.88
   - path: "面向对象编程/内部类与匿名类"
-    status: in_progress
-    last_practiced: null
-    last_session: 2026-07-03
-    practice_count: 0
-    confidence: 0.30
+    status: mastered
+    last_practiced: 2026-07-14
+    last_session: 2026-07-14
+    practice_count: 2
+    confidence: 0.93
   - path: "常用核心 API/Object、String 与包装类"
     status: unexplored
     last_practiced: null
