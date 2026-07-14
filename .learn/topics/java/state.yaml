@@ -32,11 +32,11 @@ concepts:
     practice_count: 1
     confidence: 0.85
   - path: "语言基础/流程控制"
-    status: in_progress
-    last_practiced: 2026-06-12
-    last_session: 2026-06-12
-    practice_count: 1
-    confidence: 0.75
+    status: mastered
+    last_practiced: 2026-07-14
+    last_session: 2026-07-14
+    practice_count: 2
+    confidence: 0.88
   - path: "语言基础/数组与字符串"
     status: in_progress
     last_practiced: 2026-06-17
