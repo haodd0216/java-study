@@ -14,6 +14,7 @@ public class ScoreManager {
         String[] newStudentNames = {"刘八"};
         int[] newStudentScores = {88};
         int menuIndex = 0;
+        int searchIndex = 0;
 
         // TODO: while(true) 菜单循环
         while (true) {
@@ -79,18 +80,49 @@ public class ScoreManager {
                     System.out.println("A (90-100): " + A + " 人");
                     System.out.println("B (80-89): " + B + " 人");
                     System.out.println("C (70-79): " + C + " 人");
-                    System.out.println("D (60-6): " + D + " 人");
+                    System.out.println("D (60-69): " + D + " 人");
                     System.out.println("F (0-59): " + F + " 人");
                 break;
                 case 4:
-                    for(int i = 0; i < searchNames.length; i++) {
-                        System.out.println("请输入姓名: " + searchNames[i]);
-                        for(int j = 0; j < names.length; j++) {
-                            if(searchNames[i].equals(names[j])) {
-
-                            }
-                        }
+                    System.out.println("请输入姓名: " + searchNames[searchIndex]);
+                    int index = Arrays.asList(names).indexOf(searchNames[searchIndex]);
+                    if(index == -1) {
+                        System.out.println("未找到学生: " + searchNames[searchIndex]);
+                    } else {
+                        System.out.println(names[index] + " → " + scores[index] + " 分");
                     }
+                    searchIndex++;
+                    break;
+                case 5:
+                    StringBuilder stringBuilder = new StringBuilder();
+                    for(int i = 0; i < newStudentNames.length; i++) {
+                        stringBuilder.append("添加学生：")
+                                        .append(newStudentNames[i])
+                                        .append("，分数：")
+                                        .append(newStudentScores[i])
+                                        .append("\n");
+                    }
+                    String[] newStudents = Arrays.copyOf(names, names.length + newStudentNames.length);
+                    int[] newScores = Arrays.copyOf(scores, scores.length + newStudentScores.length);
+                    System.arraycopy(newStudentNames, 0, newStudents, names.length, newStudentNames.length);
+                    System.arraycopy(newStudentScores, 0, newScores, names.length, newStudentNames.length);
+                    stringBuilder.append("添加成功！现有 ")
+                                    .append(newStudents.length)
+                                    .append(" 名学生")
+                                    .append("\n")
+                                    .append("打印成绩单确认：")
+                                    .append("\n===== 成绩单 =====");
+                    for(int i = 0; i < newStudents.length; i++) {
+                        stringBuilder.append("\n")
+                                .append(newStudents[i])
+                                .append("\t\t")
+                                .append(newScores[i])
+                                .append("\t")
+                                .append(getGrade(newScores[i]));
+                    }
+                    names = newStudents;
+                    scores = newScores;
+                    System.out.println(stringBuilder);
                     break;
                 default:
                     break;
