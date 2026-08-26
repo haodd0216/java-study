@@ -33,10 +33,10 @@ concepts:
     confidence: 0.85
   - path: "语言基础/流程控制"
     status: mastered
-    last_practiced: 2026-07-14
-    last_session: 2026-07-14
-    practice_count: 2
-    confidence: 0.88
+    last_practiced: 2026-07-15
+    last_session: 2026-07-15
+    practice_count: 3
+    confidence: 0.90
   - path: "语言基础/数组与字符串"
     status: mastered
     last_practiced: 2026-07-15
