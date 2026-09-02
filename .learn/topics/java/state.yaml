@@ -104,20 +104,23 @@ concepts:
     practice_count: 2
     confidence: 0.93
   - path: "常用核心 API/Object、String 与包装类"
-    status: unexplored
-    last_practiced: null
-    practice_count: 0
-    confidence: 0.0
+    status: mastered
+    last_practiced: 2026-09-02
+    last_session: 2026-09-02
+    practice_count: 2
+    confidence: 0.72
   - path: "常用核心 API/日期与时间 API"
-    status: unexplored
+    status: in_progress
+    last_session: 2026-09-02
     last_practiced: null
     practice_count: 0
-    confidence: 0.0
+    confidence: 0.10
   - path: "常用核心 API/枚举"
-    status: unexplored
-    last_practiced: null
-    practice_count: 0
-    confidence: 0.0
+    status: mastered
+    last_session: 2026-09-02
+    last_practiced: 2026-09-02
+    practice_count: 3
+    confidence: 0.74
   - path: "常用核心 API/正则表达式"
     status: unexplored
     last_practiced: null
