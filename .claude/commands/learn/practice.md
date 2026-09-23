@@ -10,7 +10,7 @@ Follow the workflow defined in the skill:
 0. Determine practice mode: Project Mode for coding topics (create real files in .learn/topics/<topic>/exercises/), Chat Mode for conceptual topics
 1. Load context: match topic and concept → check prerequisites
 2. Assess difficulty level based on state.yaml (beginner/intermediate/challenge)
-3. Project Mode: use Bash to create exercise dir → use Write to create README.md + starter file → tell user to open in IDE
+3. Project Mode: use Bash to create exercise dir → use Write to create README.md + starter file → tell user to open in IDE. For Java exercises, always create a real package and matching src directory so repeated class names do not conflict.
    Chat Mode: generate exercise in chat (background → requirements → code template → hint)
 4. Project Mode: use Read to review user's code file → optionally use Bash to run it → provide structured feedback, and in the same turn use Write to save session record + Edit to update state.yaml
    Chat Mode: review code submitted in chat → provide structured feedback, and in the same turn use Write to save session record + Edit to update state.yaml

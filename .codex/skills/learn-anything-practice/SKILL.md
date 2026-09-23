@@ -83,6 +83,18 @@ Determine exercise difficulty based on state.yaml:
 
 #### If Project Mode:
 
+**Java package rule — required for Java exercises:**
+
+When creating Java practice code, always place the starter file in a real Java package instead of the default package, so common class names such as `Member`, `CardType`, or `Practice` can safely repeat across exercises.
+
+- Derive a legal package name from the topic and exercise slug, using only lowercase letters, digits, and underscores. Replace hyphens/spaces/non-identifier characters with underscores.
+- Recommended package prefix: `learn.java.<exercise_slug>`, for example `learn.java.date_time_api_intermediate`.
+- Create the matching source directory, for example `./.learn/topics/java/exercises/date-time-api-intermediate/src/learn/java/date_time_api_intermediate/`.
+- Put `package learn.java.<exercise_slug>;` as the first non-comment line of every Java source file.
+- README run commands must compile with `javac -d out ...` and run by fully qualified class name, for example:
+  `javac -d out src/learn/java/date_time_api_intermediate/DateTimeRenewPractice.java`
+  `java -cp out learn.java.date_time_api_intermediate.DateTimeRenewPractice`
+
 **A) Set up exercise directory — use the Bash tool:**
 
 Determine the appropriate file extension for the topic's language (e.g., .js, .py, .ts, .rs, .go, .vue, .jsx). Convert the concept name to a lowercase slug. Then run:
