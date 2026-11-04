@@ -44,12 +44,15 @@ final class MonthlyLifetimeSubscription {
 
     // TODO 1：已付截止日当天仍可使用；次日起暂停。
     boolean isActiveOn(LocalDate date) {
-        throw new UnsupportedOperationException("TODO 1: 判断权益是否可用");
+        return date.isBefore(paidThrough()) || date.isEqual(paidThrough());
     }
 
     // TODO 2：付款成功后返回新对象。有效期内顺延，逾期从付款日重算。
     MonthlyLifetimeSubscription renew(LocalDate paymentDate) {
-        throw new UnsupportedOperationException("TODO 2: 付款并续费");
+        if(isActiveOn(paymentDate)) {
+            return new MonthlyLifetimeSubscription(memberName, billingCycle, benefitTerm, paidThrough().plusMonths(1));
+        }
+        return new MonthlyLifetimeSubscription(memberName, billingCycle, benefitTerm, paymentDate.plusMonths(1));
     }
 }
 

@@ -31,7 +31,7 @@
 
 ## 集合与数据结构
 
-- ⚪ **List** (unexplored)
+- 🔵 **List** (in progress)
 - ⚪ **Set** (unexplored)
 - ⚪ **Map** (unexplored)
 - ⚪ **Iterator 与 Iterable** (unexplored)
