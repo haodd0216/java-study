@@ -1,0 +1,703 @@
+{
+  "version": 1,
+  "topic": "java",
+  "slug": "java",
+  "created": "2026-06-02",
+  "domains": [
+    {
+      "name": "语言基础",
+      "slug": "语言基础",
+      "concepts": [
+        {
+          "name": "开发环境与运行模型",
+          "slug": "开发环境与运行模型",
+          "status": "mastered",
+          "confidence": 0.8,
+          "practice_count": 1,
+          "explain_count": 0,
+          "last_explained": "2026-06-03",
+          "last_practiced": "2026-06-03",
+          "details": []
+        },
+        {
+          "name": "基本语法与程序结构",
+          "slug": "基本语法与程序结构",
+          "status": "mastered",
+          "confidence": 0.85,
+          "practice_count": 1,
+          "explain_count": 0,
+          "last_explained": "2026-06-03",
+          "last_practiced": "2026-06-03",
+          "details": []
+        },
+        {
+          "name": "变量与数据类型",
+          "slug": "变量与数据类型",
+          "status": "mastered",
+          "confidence": 0.85,
+          "practice_count": 1,
+          "explain_count": 0,
+          "last_explained": "2026-06-03",
+          "last_practiced": "2026-06-03",
+          "details": []
+        },
+        {
+          "name": "运算符与表达式",
+          "slug": "运算符与表达式",
+          "status": "mastered",
+          "confidence": 0.85,
+          "practice_count": 1,
+          "explain_count": 0,
+          "last_explained": "2026-07-14",
+          "last_practiced": "2026-07-14",
+          "details": [
+            "位运算"
+          ]
+        },
+        {
+          "name": "流程控制",
+          "slug": "流程控制",
+          "status": "mastered",
+          "confidence": 0.9,
+          "practice_count": 3,
+          "explain_count": 0,
+          "last_explained": "2026-07-15",
+          "last_practiced": "2026-07-15",
+          "details": []
+        },
+        {
+          "name": "数组与字符串",
+          "slug": "数组与字符串",
+          "status": "mastered",
+          "confidence": 0.92,
+          "practice_count": 3,
+          "explain_count": 0,
+          "last_explained": "2026-07-15",
+          "last_practiced": "2026-07-15",
+          "details": []
+        }
+      ]
+    },
+    {
+      "name": "面向对象编程",
+      "slug": "面向对象编程",
+      "concepts": [
+        {
+          "name": "类与对象",
+          "slug": "类与对象",
+          "status": "mastered",
+          "confidence": 0.9,
+          "practice_count": 1,
+          "explain_count": 0,
+          "last_explained": "2026-07-14",
+          "last_practiced": "2026-07-14",
+          "details": []
+        },
+        {
+          "name": "封装",
+          "slug": "封装",
+          "status": "mastered",
+          "confidence": 0.92,
+          "practice_count": 3,
+          "explain_count": 0,
+          "last_explained": "2026-06-18",
+          "last_practiced": "2026-06-18",
+          "details": []
+        },
+        {
+          "name": "继承",
+          "slug": "继承",
+          "status": "mastered",
+          "confidence": 0.85,
+          "practice_count": 1,
+          "explain_count": 0,
+          "last_explained": "2026-06-18",
+          "last_practiced": "2026-06-18",
+          "details": []
+        },
+        {
+          "name": "多态",
+          "slug": "多态",
+          "status": "mastered",
+          "confidence": 0.92,
+          "practice_count": 3,
+          "explain_count": 0,
+          "last_explained": "2026-07-02",
+          "last_practiced": "2026-07-03",
+          "details": []
+        },
+        {
+          "name": "抽象类与接口",
+          "slug": "抽象类与接口",
+          "status": "mastered",
+          "confidence": 0.88,
+          "practice_count": 1,
+          "explain_count": 0,
+          "last_explained": "2026-07-02",
+          "last_practiced": "2026-07-03",
+          "details": []
+        },
+        {
+          "name": "内部类与匿名类",
+          "slug": "内部类与匿名类",
+          "status": "mastered",
+          "confidence": 0.93,
+          "practice_count": 2,
+          "explain_count": 0,
+          "last_explained": "2026-07-14",
+          "last_practiced": "2026-07-14",
+          "details": []
+        }
+      ]
+    },
+    {
+      "name": "常用核心 API",
+      "slug": "常用核心-api",
+      "concepts": [
+        {
+          "name": "Object、String 与包装类",
+          "slug": "objectstring-与包装类",
+          "status": "mastered",
+          "confidence": 0.72,
+          "practice_count": 2,
+          "explain_count": 0,
+          "last_explained": "2026-09-02",
+          "last_practiced": "2026-09-02",
+          "details": []
+        },
+        {
+          "name": "日期与时间 API",
+          "slug": "日期与时间-api",
+          "status": "mastered",
+          "confidence": 0.78,
+          "practice_count": 2,
+          "explain_count": 0,
+          "last_explained": "2026-09-03",
+          "last_practiced": "2026-09-30",
+          "details": []
+        },
+        {
+          "name": "枚举",
+          "slug": "枚举",
+          "status": "mastered",
+          "confidence": 0.74,
+          "practice_count": 3,
+          "explain_count": 0,
+          "last_explained": "2026-09-02",
+          "last_practiced": "2026-09-02",
+          "details": []
+        },
+        {
+          "name": "正则表达式",
+          "slug": "正则表达式",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        },
+        {
+          "name": "Optional",
+          "slug": "optional",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        }
+      ]
+    },
+    {
+      "name": "集合与数据结构",
+      "slug": "集合与数据结构",
+      "concepts": [
+        {
+          "name": "List",
+          "slug": "list",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        },
+        {
+          "name": "Set",
+          "slug": "set",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        },
+        {
+          "name": "Map",
+          "slug": "map",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        },
+        {
+          "name": "Iterator 与 Iterable",
+          "slug": "iterator-与-iterable",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        },
+        {
+          "name": "Comparable 与 Comparator",
+          "slug": "comparable-与-comparator",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        },
+        {
+          "name": "集合性能与选择",
+          "slug": "集合性能与选择",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        }
+      ]
+    },
+    {
+      "name": "异常与调试",
+      "slug": "异常与调试",
+      "concepts": [
+        {
+          "name": "异常体系",
+          "slug": "异常体系",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        },
+        {
+          "name": "try-catch-finally",
+          "slug": "try-catch-finally",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        },
+        {
+          "name": "自定义异常",
+          "slug": "自定义异常",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        },
+        {
+          "name": "日志与调试",
+          "slug": "日志与调试",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        }
+      ]
+    },
+    {
+      "name": "泛型与注解",
+      "slug": "泛型与注解",
+      "concepts": [
+        {
+          "name": "泛型类与泛型方法",
+          "slug": "泛型类与泛型方法",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        },
+        {
+          "name": "通配符与边界",
+          "slug": "通配符与边界",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        },
+        {
+          "name": "类型擦除",
+          "slug": "类型擦除",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        },
+        {
+          "name": "注解基础",
+          "slug": "注解基础",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        },
+        {
+          "name": "反射基础",
+          "slug": "反射基础",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        }
+      ]
+    },
+    {
+      "name": "IO 与文件处理",
+      "slug": "io-与文件处理",
+      "concepts": [
+        {
+          "name": "字节流与字符流",
+          "slug": "字节流与字符流",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        },
+        {
+          "name": "文件与路径 API",
+          "slug": "文件与路径-api",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        },
+        {
+          "name": "缓冲流",
+          "slug": "缓冲流",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        },
+        {
+          "name": "序列化",
+          "slug": "序列化",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        },
+        {
+          "name": "NIO 基础",
+          "slug": "nio-基础",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        }
+      ]
+    },
+    {
+      "name": "函数式与 Stream",
+      "slug": "函数式与-stream",
+      "concepts": [
+        {
+          "name": "Lambda 表达式",
+          "slug": "lambda-表达式",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        },
+        {
+          "name": "函数式接口",
+          "slug": "函数式接口",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        },
+        {
+          "name": "方法引用",
+          "slug": "方法引用",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        },
+        {
+          "name": "Stream 操作",
+          "slug": "stream-操作",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        },
+        {
+          "name": "Stream 收集与分组",
+          "slug": "stream-收集与分组",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        }
+      ]
+    },
+    {
+      "name": "并发编程",
+      "slug": "并发编程",
+      "concepts": [
+        {
+          "name": "线程基础",
+          "slug": "线程基础",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        },
+        {
+          "name": "synchronized 与锁",
+          "slug": "synchronized-与锁",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        },
+        {
+          "name": "volatile 与内存可见性",
+          "slug": "volatile-与内存可见性",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        },
+        {
+          "name": "线程池",
+          "slug": "线程池",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        },
+        {
+          "name": "Future 与 CompletableFuture",
+          "slug": "future-与-completablefuture",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        },
+        {
+          "name": "并发集合",
+          "slug": "并发集合",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        }
+      ]
+    },
+    {
+      "name": "JVM 与性能",
+      "slug": "jvm-与性能",
+      "concepts": [
+        {
+          "name": "JVM 内存模型",
+          "slug": "jvm-内存模型",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        },
+        {
+          "name": "类加载机制",
+          "slug": "类加载机制",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        },
+        {
+          "name": "垃圾回收基础",
+          "slug": "垃圾回收基础",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        },
+        {
+          "name": "性能分析与调优入门",
+          "slug": "性能分析与调优入门",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        }
+      ]
+    },
+    {
+      "name": "工程实践",
+      "slug": "工程实践",
+      "concepts": [
+        {
+          "name": "Maven 基础",
+          "slug": "maven-基础",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        },
+        {
+          "name": "单元测试",
+          "slug": "单元测试",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        },
+        {
+          "name": "包结构与分层",
+          "slug": "包结构与分层",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        },
+        {
+          "name": "常用设计原则",
+          "slug": "常用设计原则",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        },
+        {
+          "name": "常见设计模式",
+          "slug": "常见设计模式",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": []
+        }
+      ]
+    }
+  ]
+}
